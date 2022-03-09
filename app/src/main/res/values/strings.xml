@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AppCalcSalario</string>
+    <string name="calcular">Calcular</string>
+
+    <string name="string_ps">Selecione o tipo do seu Plano de Saúde</string>
+    <string name="standar">Standard</string>
+    <string name="plano_standart">O salario é de 60</string>
+    <string name="plano_standart2">O salario é de 80</string>
+    <string name="basico">Básico</string>
+    <string name="supe">Super</string>
+    <string name="master">Master</string>
+    <string name="plano_saude">Plano de Saúde</string>
+
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+
+    <string name="salario_liquido">Salário Liquido</string>
+
+    <string name="salario_bruto">Informe o seu Salário Bruto</string>
+    <string name="numDependete"> Número de dependentes</string>
+    <string name="inss">INSS será calculado automaticamente</string>
+
+    <string name="vt">Possui Vale Transporte ?</string>
+    <string name="va">Possui Vale Alimentação</string>
+    <string name="vr">Possui Vale Refeição</string>
+
+    <string name="irrf">Imposto de Renda será calculado automaticado </string>
+
+    <string name="descontos">Descontos </string>
+
+    <string name="planoSaude">Plano de Saúde </string>
+    <string name="valeTrans">Vale Transporte </string>
+    <string name="valeAlim">Vale Alimentação </string>
+    <string name="valeRefe">Vale Refeição </string>
+    <string name="descInss">INSS </string>
+    <string name="descIrrf">IRRF </string>
+    <string name="salBruto">Salário Bruto </string>
+    <string name="salLiquid">Salário Líquido </string>
+    <string name="holerite">Holerite </string>
+
+
+
+</resources>

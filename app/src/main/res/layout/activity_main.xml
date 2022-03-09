@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/estilo_textview"
+        android:background="@color/redin"
+        android:text="@string/salario_bruto" />
+    <EditText
+        android:id="@+id/salbruto"
+        style="@style/estilo_edit" />
+    <!-- parte xml do plano de saúde -->
+    <TextView
+        style="@style/estilo_textview"
+        android:background="@color/redin"
+        android:text="@string/numDependete" />
+    <EditText
+        android:id="@+id/numDependentes"
+        style="@style/estilo_edit" />
+    <!-- parte xml do plano de saúde -->
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/string_ps" />
+
+
+    <LinearLayout
+        style="@style/estilo_base"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/rbPlan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/rb_stand"
+            android:layout_weight="2"
+            android:text="@string/standar" />
+
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/rb_basico"
+            android:layout_weight="2"
+            android:text="@string/basico" />
+
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/rb_super"
+            android:layout_weight="2"
+            android:text="@string/supe" />
+
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/rb_master"
+            android:layout_weight="2"
+            android:text="@string/master" />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <!-- parte xml do vale transporte -->
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/vt" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioTransporte"
+        >
+    <LinearLayout
+        android:orientation="horizontal"
+        style="@style/estilo_base">
+
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/possui_vt"
+            android:layout_weight="2"
+            android:text="@string/sim" />
+
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/npossui_vt"
+            android:layout_weight="2"
+            android:text="@string/nao" />
+
+    </LinearLayout>
+    </RadioGroup>
+    <!-- parte xml do vale alimentação -->
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/va" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_va"
+        >
+    <LinearLayout
+        android:orientation="horizontal"
+        style="@style/estilo_base">
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/possui_va"
+            android:layout_weight="2"
+            android:text="@string/sim" />
+
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/npossui_va"
+            android:layout_weight="2"
+            android:text="@string/nao" />
+
+    </LinearLayout>
+    </RadioGroup>
+
+    <!-- parte xml do vale refeição -->
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/vr" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_vr"
+        >
+    <LinearLayout
+        android:orientation="horizontal"
+        style="@style/estilo_base">
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/possui_vr"
+            android:layout_weight="2"
+            android:text="@string/sim" />
+
+        <RadioButton
+            style="@style/estilo_check"
+            android:id="@+id/npossui_vr"
+            android:layout_weight="2"
+            android:text="@string/nao" />
+
+    </LinearLayout>
+    </RadioGroup>
+
+    <!-- parte xml avisando do imposto de renda e INSS -->
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/irrf" />
+    <TextView
+        style="@style/estilo_textview"
+        android:text="@string/inss" />
+
+    <Button
+        android:layout_marginTop="-10dp"
+        android:id="@+id/bt_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"/>
+
+
+    </LinearLayout>

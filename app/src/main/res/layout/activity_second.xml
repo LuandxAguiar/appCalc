@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        style="@style/estilo_base"
+        android:orientation="vertical"
+        android:background="@color/cinza">
+        <TextView
+            style="@style/estilo_textview"
+            android:background="@color/white"
+            android:text="@string/holerite" />
+
+        <LinearLayout
+            style="@style/estilo_base"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:text="@string/salBruto"/>
+            <TextView
+                android:id="@+id/salbruto"
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            style="@style/estilo_textview"
+            android:background="@color/white"
+            android:text="@string/descontos" />
+
+        <LinearLayout
+            style="@style/estilo_base"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:text="@string/plano_saude"/>
+            <TextView
+                android:id="@+id/descPlano"
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/estilo_base"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:text="@string/valeAlim"/>
+            <TextView
+                android:id="@+id/descValeAlim"
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/estilo_base"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:text="@string/valeRefe"/>
+            <TextView
+                android:id="@+id/descValeRef"
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/estilo_base"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:text="@string/valeTrans"/>
+            <TextView
+                android:id="@+id/descValeTrans"
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/estilo_base"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:text="@string/descInss"/>
+            <TextView
+                android:id="@+id/descInss"
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/estilo_base"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:text="@string/descIrrf"/>
+            <TextView
+                android:id="@+id/descIrrf"
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/estilo_base"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/estilo_textview"
+                android:background="@color/white"
+                android:layout_weight="1"
+                android:text="@string/salLiquid"/>
+            <TextView
+                android:id="@+id/SalLiquido"
+                style="@style/estilo_textview"
+                android:background="@color/green"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
